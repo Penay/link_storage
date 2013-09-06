@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-LinkStorage::Application.config.secret_key_base = '2310bf26d3ce8507e853fc201b1a3a0121d6ecad37a4fcdd3166258afbe21875771509c460eb00dd3a2b70b83f47be04f708169df7af97065c9b0f962bb4e266'
+LinkStorage::Application.config.secret_key_base = '5d72a1f9787788988eef07a9200cddabf73bb6b14bf35f720489b80a8a3b6dca360ce8c3d1d2d95e9f6829502b0c249429fabae74db0236659b8852884b2efe4'
