@@ -2,18 +2,13 @@
 
 %table
   %tr
-    %th Href
-    %th Title
-    %th User
     %th
     %th
     %th
 
   - @links.each do |link|
     %tr
-      %td= link.href
-      %td= link.title
-      %td= link.user_id
+      %td= link_to link.title, link.href
       %td= link_to 'Show', link
       %td= link_to 'Edit', edit_link_path(link)
       %td= link_to 'Destroy', link, :method => :delete, :data => { :confirm => 'Are you sure?' }

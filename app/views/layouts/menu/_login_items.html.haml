@@ -1,4 +1,4 @@
-- unless params[:controller] include 'devise'
+- unless params[:controller].include? 'devise'
   - if user_signed_in?
     = link_to('Edit registration', edit_user_registration_path)
     = link_to 'Exit', destroy_user_session_path, method: :delete
