@@ -47,6 +47,8 @@ gem 'figaro'
 gem 'haml-rails'
 gem 'pg'
 
+gem 'acts-as-taggable-on'
+
 group :assets do
   gem 'therubyracer', :platform=>:ruby
 end
